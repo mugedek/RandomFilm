@@ -44,26 +44,17 @@ namespace Nastya
                 submenu.Visible = false;
         }
 
-        private void btnMedia_Click(object sender, EventArgs e)
+        private void btnFind_Click(object sender, EventArgs e)
         {
             showSubMenu(panelMediaSubMenu);
         }
         #region MediaSubMenu
-        //вызов окна выбора папки при нажатии по кнопке
         private void button2_Click(object sender, EventArgs e)
         {
+            openChildForm(new Form2());
 
-
-            /*FolderBrowserDialog DirDialog = new FolderBrowserDialog();
-            DirDialog.Description = "Выбор директории ZBS";
-            DirDialog.SelectedPath = @"D:\Game\SteamLibrary";
-
-            if (DirDialog.ShowDialog() == DialogResult.OK)
-            {
-                TextBoxPath.Text = DirDialog.SelectedPath;
-            }*/
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -71,7 +62,7 @@ namespace Nastya
         private void button3_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -79,7 +70,7 @@ namespace Nastya
         private void button4_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -87,7 +78,7 @@ namespace Nastya
         private void button5_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -100,7 +91,7 @@ namespace Nastya
         private void button9_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -108,7 +99,7 @@ namespace Nastya
         private void button8_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -116,7 +107,7 @@ namespace Nastya
         private void button7_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -124,7 +115,7 @@ namespace Nastya
         private void button6_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -137,7 +128,7 @@ namespace Nastya
         private void button14_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -145,7 +136,7 @@ namespace Nastya
         private void button13_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -153,7 +144,7 @@ namespace Nastya
         private void button12_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -161,7 +152,7 @@ namespace Nastya
         private void button11_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
         }
@@ -169,9 +160,24 @@ namespace Nastya
         private void BtnHelp_Click(object sender, EventArgs e)
         {
             //..
-            //Your code
+            //code
             //..
             hideSubMenu();
+        }
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
     }
 }
