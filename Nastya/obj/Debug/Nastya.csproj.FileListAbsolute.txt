@@ -1,0 +1,10 @@
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\bin\Debug\Nastya.exe.config
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\bin\Debug\Nastya.exe
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\bin\Debug\Nastya.pdb
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.csprojAssemblyReference.cache
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.Form1.resources
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.Properties.Resources.resources
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.csproj.GenerateResource.cache
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.exe
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.pdb
+C:\Users\Сергей\Desktop\ПРОГРАНЬЕ\C#\Рандомный поиск фильмов\Programm\Nastya\Nastya\obj\Debug\Nastya.Form2.resources
