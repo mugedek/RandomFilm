@@ -49,7 +49,7 @@ namespace Nastya
             showSubMenu(panelMediaSubMenu);
         }
         #region MediaSubMenu
-        private void button2_Click(object sender, EventArgs e)
+        private void btnSelectPath_Click(object sender, EventArgs e)
         {
             openChildForm(new Form2());
 

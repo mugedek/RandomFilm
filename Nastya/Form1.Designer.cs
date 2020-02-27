@@ -47,7 +47,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSelectPath = new System.Windows.Forms.Button();
             this.btnFind = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelChildForm = new System.Windows.Forms.Panel();
@@ -299,7 +299,7 @@
             this.panelMediaSubMenu.Controls.Add(this.button5);
             this.panelMediaSubMenu.Controls.Add(this.button4);
             this.panelMediaSubMenu.Controls.Add(this.button3);
-            this.panelMediaSubMenu.Controls.Add(this.button2);
+            this.panelMediaSubMenu.Controls.Add(this.btnSelectPath);
             this.panelMediaSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMediaSubMenu.Location = new System.Drawing.Point(0, 145);
             this.panelMediaSubMenu.Name = "panelMediaSubMenu";
@@ -357,22 +357,22 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // btnSelectPath
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(183, 40);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSelectPath.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSelectPath.FlatAppearance.BorderSize = 0;
+            this.btnSelectPath.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnSelectPath.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectPath.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSelectPath.Location = new System.Drawing.Point(0, 0);
+            this.btnSelectPath.Name = "btnSelectPath";
+            this.btnSelectPath.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btnSelectPath.Size = new System.Drawing.Size(183, 40);
+            this.btnSelectPath.TabIndex = 0;
+            this.btnSelectPath.Text = "Select Path";
+            this.btnSelectPath.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSelectPath.UseVisualStyleBackColor = true;
+            this.btnSelectPath.Click += new System.EventHandler(this.btnSelectPath_Click);
             // 
             // btnFind
             // 
@@ -448,7 +448,7 @@
         private System.Windows.Forms.Panel panelMediaSubMenu;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSelectPath;
         private System.Windows.Forms.Button btnFind;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button button5;
