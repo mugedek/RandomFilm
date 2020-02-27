@@ -26,7 +26,7 @@ namespace Nastya
         {
 
             FolderBrowserDialog DirDialog = new FolderBrowserDialog();
-            DirDialog.Description = "Выбор директории ZBS";
+            DirDialog.Description = "Выбор директории";
             DirDialog.SelectedPath = @"D:\Game\SteamLibrary";
 
             if (DirDialog.ShowDialog() == DialogResult.OK)
